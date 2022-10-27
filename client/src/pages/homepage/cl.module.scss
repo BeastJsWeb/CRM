@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1.7em;
+  padding-bottom: 7em;
+  width: 100%;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    line-height: 1.2em;
+
+    a {
+      display: inline-block;
+      color: blue;
+      margin: 0 0.5em;
+    }
+  }
+}
